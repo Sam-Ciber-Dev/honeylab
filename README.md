@@ -174,16 +174,13 @@ For full transparency, what does **not** work 100% and why:
 
 ## Project structure
 
-- `README.md` — this document
-- `.portfolio.json` — portfolio metadata (PT/EN)
-- `assets/` — `Logo.png` and `social-preview.png`
-- `docs/` — technical reports (PT & EN, PDF)
-- `template-files/` — control panel, setup wizard, helpers, sudoers, sanitiser and systemd units
-- `gen_reports.py` — technical report generator (PT & EN)
-- `tutorial.md` — step-by-step build tutorial
-- `HoneyLab Checksum (ENG).txt` — SHA256 of the distributed VM
-- `How to test (step by step).txt` — testing walkthrough
-- `.gitignore` — ignores the large `.ova`/`.zip` (distributed via MEGA, not committed)
+- assets/
+	- social-preview.png — social preview image for link cards
+- docs/
+	- HoneyLab_Relatório_PT.pdf — full report (Portuguese)
+	- HoneyLab_Report_ENG.pdf — full report (English)
+- .portfolio.json — portfolio site integration metadata
+- README.md — this document
 
 > The `HoneyLab.ova` VM (~5.7 GB) is distributed via **MEGA**, not stored in this repository.
 
