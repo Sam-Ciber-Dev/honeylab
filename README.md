@@ -79,7 +79,7 @@ On login (console or SSH) a bilingual (PT/EN) shell **control panel** appears au
 
 ## Explicative Diagram
 
-[HoneyLab Architecture](assets/HoneyLab_architecture.png)
+![HoneyLab Architecture](assets/HoneyLab_architecture.png)
 
 ## Getting started
 
