@@ -11,8 +11,8 @@
   "technologies": ["Ubuntu Server", "VMware", "Cowrie", "OpenCanary", "SNARE", "Tanner", "Docker", "Elasticsearch", "Kibana", "Logstash", "Filebeat", "ElastAlert 2", "MITRE ATT&CK", "Bash", "Python"],
   "icon": "fas fa-shield-halved",
   "report": {
-    "pt": "docs/HoneyLab_Relatorio_Tecnico_PT.pdf",
-    "en": "docs/HoneyLab_Technical_Report_EN.pdf"
+    "pt": "docs/HoneyLab_Relatório_PT.pdf",
+    "en": "docs/HoneyLab_Report_ENG.pdf"
   },
   "order": 1
 }
