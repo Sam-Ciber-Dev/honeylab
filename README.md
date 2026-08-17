@@ -5,7 +5,7 @@
 
 ## Overview
 
-HoneyLab is a pre-configured, ready-to-import multi-service honeypot delivered as a single virtual machine (**Ubuntu Server 26.04 LTS**, built for **VMware**). It combines several decoy services with a full detection and analysis pipeline, so you can study real attacker behaviour without touching a production system — just download the VM, import it, run the first-time wizard, and start capturing.
+HoneyLab is a pre-configured, ready-to-import multi-service honeypot delivered as a single virtual machine (**Ubuntu Server 26.04 LTS**, built for **VMware**). It combines several decoy services with a full detection and analysis pipeline, so you can study real attacker behaviour without touching a production system, just download the VM, import it, run the first-time wizard, and start capturing.
 
 Everything is wired end to end: the honeypots capture SSH, Telnet, FTP, HTTP, MySQL and web attacks; an **ELK** pipeline enriches every event with **GeoIP** and **MITRE ATT&CK** context; **Kibana** visualises it; and **ElastAlert 2** sends email alerts. A bilingual (PT/EN) shell **control panel** with a guided setup wizard ties it all together.
 
