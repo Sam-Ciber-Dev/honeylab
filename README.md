@@ -27,22 +27,6 @@ Everything is wired end to end: the honeypots capture SSH, Telnet, FTP, HTTP, My
 
 ## Architecture
 
-```
-                    Attacker / Scanner
-                            │
-        ┌───────────────────┼───────────────────────────┐
-        │ 22/23             │ 21/80/3306                 │ 8080
-        ▼                   ▼                            ▼
-     Cowrie             OpenCanary                 SNARE ──► Tanner (Docker)
-   (SSH/Telnet)       (FTP/HTTP/MySQL)             (web)     (web analysis)
-        │                   │                            │
-        └─── logs ──────────┴──────── logs ──────────────┘
-                            │
-                Filebeat ─► Logstash (GeoIP + MITRE ATT&CK) ─► Elasticsearch
-                                                                   │
-                                                 Kibana (dashboards) + ElastAlert 2 (email)
-```
-
 | Layer                           | Tool                                    | Ports               |
 | ------------------------------- | --------------------------------------- | ------------------- |
 | Fake SSH/Telnet                 | **Cowrie**                        | 22→2223 / 23→2224 |
@@ -91,6 +75,11 @@ A low-interaction honeypot exposing several decoy services at once and recording
 ### Control panel & setup wizard
 
 On login (console or SSH) a bilingual (PT/EN) shell **control panel** appears automatically, showing the VM IP, the live status of every service, and a red warning until the initial setup is complete. Option `0` launches the **setup wizard** with four steps: change the VM username, change the VM password, change the Elasticsearch password (propagated to Logstash and ElastAlert 2), and configure email alerts (validated with a real SMTP login test). Options `1`–`4` open the web interfaces, `5`–`8` tail the live logs, `9` shows detailed service status, and `pt`/`en` switch the language.
+
+
+## Explicative Diagram
+
+[HoneyLab Architecture](assets/HoneyLab_architecture.png)
 
 ## Getting started
 
