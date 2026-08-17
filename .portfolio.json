@@ -1,7 +1,5 @@
 {
   "category": "defensive",
-  "order": 1,
-  "icon": "fas fa-shield-halved",
   "title": {
     "pt": "HoneyLab",
     "en": "HoneyLab"
@@ -10,25 +8,11 @@
     "pt": "Honeypot com multi-serviço pré-configurado e pronto a importar, numa VM Ubuntu Server 26.04 (VMware). Combina serviços-isco (SSH, Telnet, FTP, HTTP, MySQL, web), uma pipeline de deteção e análise ELK com GeoIP e mapeamento MITRE ATT&CK, alertas por email (ElastAlert 2) e um painel de controlo bilingue com assistente de primeira configuração.",
     "en": "Honeypot with pre-configured, ready-to-import multi-service on an Ubuntu Server 26.04 VM (VMware). It combines decoy services (SSH, Telnet, FTP, HTTP, MySQL, web), an ELK detection and analysis pipeline with GeoIP and MITRE ATT&CK mapping, email alerts (ElastAlert 2), and a bilingual control panel with a first-run setup wizard."
   },
-  "technologies": [
-    "Ubuntu Server",
-    "VMware",
-    "Cowrie",
-    "OpenCanary",
-    "SNARE",
-    "Tanner",
-    "Docker",
-    "Elasticsearch",
-    "Kibana",
-    "Logstash",
-    "Filebeat",
-    "ElastAlert 2",
-    "MITRE ATT&CK",
-    "Bash",
-    "Python"
-  ],
+  "technologies": ["Ubuntu Server", "VMware", "Cowrie", "OpenCanary", "SNARE", "Tanner", "Docker", "Elasticsearch", "Kibana", "Logstash", "Filebeat", "ElastAlert 2", "MITRE ATT&CK", "Bash", "Python"],
+  "icon": "fas fa-shield-halved",
   "report": {
     "pt": "docs/HoneyLab_Relatorio_Tecnico_PT.pdf",
     "en": "docs/HoneyLab_Technical_Report_EN.pdf"
-  }
+  },
+  "order": 1
 }
