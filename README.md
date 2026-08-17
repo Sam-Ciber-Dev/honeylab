@@ -1,7 +1,7 @@
 
 # HoneyLab
 
-**Download HoneyLab:** [HoneyLab OVA](https://mega.nz/folder/0qNmhCTJ#rm37j4yC9V0JZC1sJLc2yQ)
+**Download HoneyLab version 1.0:** [HoneyLab OVA](https://mega.nz/folder/0qNmhCTJ#rm37j4yC9V0JZC1sJLc2yQ)
 
 ## Overview
 
